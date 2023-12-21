@@ -1,8 +1,6 @@
-# [CTransformers](https://github.com/marella/ctransformers) [![PyPI](https://img.shields.io/pypi/v/ctransformers)](https://pypi.org/project/ctransformers/) [![tests](https://github.com/marella/ctransformers/actions/workflows/tests.yml/badge.svg)](https://github.com/marella/ctransformers/actions/workflows/tests.yml) [![build](https://github.com/marella/ctransformers/actions/workflows/build.yml/badge.svg)](https://github.com/marella/ctransformers/actions/workflows/build.yml)
+# [CTransformers](https://github.com/OpenConsultingUK/ctransformers)
 
 Python bindings for the Transformer models implemented in C/C++ using [GGML](https://github.com/ggerganov/ggml) library.
-
-> Also see [ChatDocs](https://github.com/marella/chatdocs)
 
 - [Supported Models](#supported-models)
 - [Installation](#installation)
@@ -546,12 +544,3 @@ Generates text from a prompt.
 - <b>`stop`</b>: A list of sequences to stop generation when encountered. Default: `None`
 - <b>`stream`</b>: Whether to stream the generated text. Default: `False`
 - <b>`reset`</b>: Whether to reset the model state before generating text. Default: `True`
-
-**Returns:**
-The generated text.
-
-<!-- API_DOCS -->
-
-## License
-
-[MIT](https://github.com/marella/ctransformers/blob/main/LICENSE)
