@@ -79,6 +79,17 @@ files = [
 ]
 
 [[package]]
+name = "py-cpuinfo"
+version = "9.0.0"
+description = "Get CPU info with pure Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "py-cpuinfo-9.0.0.tar.gz", hash = "sha256:3cdbbf3fac90dc6f118bfd64384f309edeadd902d7c8fb17f02ffa1fc3f49690"},
+    {file = "py_cpuinfo-9.0.0-py3-none-any.whl", hash = "sha256:859625bc251f64e21f077d099d4162689c762b5d6a4c3c97553d56241c9674d5"},
+]
+
+[[package]]
 name = "scikit-build"
 version = "0.17.6"
 description = "Improved build system generator for Python C/C++/Fortran/Cython extensions"
@@ -146,4 +157,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0a6556b1537f898cb55515ded04479c0750a680c0443895a7d502783234fc3b8"
+content-hash = "d03fc27bee44db3c78464b36e0b4b369be8e942163883d02f4a007701ee9b0c7"
