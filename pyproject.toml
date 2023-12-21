@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ctransformers-armx64"
+name = "ctransformers"
 version = "1.0.0"
 description = "ctransformer library that is compatible with Arm compiler of linux"
 authors = ["hgokhru101 <harsh.gokhru@somaiya.edu>"]
